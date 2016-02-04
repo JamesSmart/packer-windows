@@ -69,7 +69,7 @@
       "communicator":           "winrm",
       "winrm_username":         "{{user `admin_username`}}",
       "winrm_password":         "{{user `admin_password`}}",
-      "winrm_timeout":          "20m",
+      "winrm_timeout":          "60m",
       "shutdown_command":       "shutdown /s /t 1 /f /d p:4:1 /c 'Packer Shutdown'",
       "format":                 "qcow2",
       "headless":               false,
