@@ -36,7 +36,7 @@
       "communicator":         "winrm",
       "winrm_username":       "{{user `admin_username`}}",
       "winrm_password":       "{{user `admin_password`}}",
-      "winrm_timeout":        "20m",
+      "winrm_timeout":        "60m",
       "switch_name":          "{{user `hyperv_switch`}}",
       "shutdown_command":     "shutdown /s /t 1 /f /d p:4:1 /c \"Packer Shutdown\"",
       "guest_additions_mode": "none",
